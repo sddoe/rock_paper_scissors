@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Rock Paper Scissors</title>
+        <meta charset="UTF-8">
+
+        <link href="resources/reset.css" type="text/css" rel="stylesheet">
+        <link href="resources/style.css" type="text/css" rel="stylesheet">
+    </head>
+    
+    <body>
+        <header>
+        <h1>Rock Paper Scissors!</h1>
+        <h2>From The Odin Project</h2>
+        </header>
+
+        <div class = "container">
+            <div class = "buttons">
+                <button id = "rock">Rock</button>
+                <button id = "paper">Paper</button>
+                <button id = "scissors">Scissors</button>
+            </div>
+
+            <div class = "results">
+                <table>
+                    <tr>
+                        <th scope = "row" class = "status_th">Status</th>
+                        <td id = "status">Result of the Current Round will appear here</td>
+                    </tr>
+                </table>
+                
+
+                <table>
+                    <tr>
+                        <th scope="row">Rounds</th>
+                        <td id="rounds">0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Wins</th>
+                        <td id="wins">0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Losses</th>
+                        <td id="losses">0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Ties</th>
+                        <td id="ties">0</td>
+                    </tr>
+                </table>
+
+                <table>
+                    <tr>
+                        <th scope="row" class = "status_th">Final Result</th>
+                        <td id = "final_result">Keep on Playing...</td>
+                    </tr>
+                </table>
+            </div>
+
+            <button id = "reset">Reset Game</button>
+        </div>
+        <footer>
+            <p>A Game By Purva</p>
+            <p>For The Odin Project!</p>
+        </footer>
+
+        <script type="text/javascript" src="resources/script.js"></script>
+    </body>
+</html>
