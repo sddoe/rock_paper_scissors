@@ -89,7 +89,7 @@ function game()
     }
     else if (rounds >= 5)
     {
-        return 'Game Over';
+        return 'Game Over!';
     }
     return finalResult;
 }
